@@ -115,6 +115,69 @@ export const CertificateSection = () => {
         <button className='enrollBtn' style={{ padding: "0.7rem", borderRadius: "0.2rem", marginLeft: "45%", marginTop: "3rem" }}>ENROLL NOW</button>
       </div>
       {/*enrollNow div end----------------------------------------------------------------------------------------------------------*/}
+
+      <div className="metaDiv" style={{display:"flex",width:"95%" , marginLeft:"2rem",marginTop:"4rem",gap:"8%",padding:"0%"}} >
+  <div className="metaRytCornerImg" >
+    <img style={{width:"100%", height:"100%",borderStartEndRadius:"60%",border:"1px solid black"}} src="https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F5PbeUh7H2VDxVPfXmvLqI3%2Fb337c94d65552574544b69b8e01e3022%2FMedha.jpg&w=1920&q=75" alt="" />
+  </div>
+  <div className="metaRytCornerText" style={{width:"30%" ,fontSize:"22px"}}>
+   <div style={{marginTop:"8rem"}}> <img src="https://productschool.com/_next/static/media/quote__accent_1.e15c3eef.svg" alt="" /></div>
+    <div style={{marginTop:"25%"}}>
+      <h4>This certification covers everything you need to know about Product Management to jumpstart and land your first PM job. It isn’t all theory, you get to apply everything you learn to your own project and the instructors provide feedback to help you improve.</h4>
+    </div>
+    <div style={{lineHeight:"1px",marginTop:"15%"}}>
+      <h5>Medha Ghatikesh</h5>
+      <p>Product Manager</p>
+    </div>
+   <div style={{marginTop:"15%"}}>
+   <img src="https://images.ctfassets.net/6nwv0fapso8r/4stAWpNWcovbviGeiPxkt0/5d59e4914a95ca3c3dec9282d2493b5f/Meta.svg" alt="" />
+   </div>
+  </div>
+</div>
+
+{/*--------------------------------------------------------------------------------------------------------------------------------------*/}
+
+<div className='PMCcurriculum' style={{width:"95%",height:"810px",backgroundColor:"#07182c",marginLeft:"2rem" , position:"absolute"}}>
+  <div style={{color:"antiquewhite",margin:"3rem",lineHeight:"1.5px"}}>
+    <h2>Product Manager Certification (PMC)™ curriculum </h2>
+Here’s what’s covered:
+</div>
+<div className="PMCcurriculumLeft" >
+<Accordion allowToggle>
+  <AccordionItem backgroundColor='#0f243e' >
+    
+      <AccordionButton className='AccordionButton'>
+        <Box  as='span' flex='2' textAlign='left' >
+          1. How great PMs are built and how they build great products
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    
+    <AccordionPanel pb={4} className='AccordionButtonPannel'>
+    
+The first step in building amazing products is to gain deeper insight into the role of a Product Manager. Learn how digital products are built, what is expected of you as a PM, and how to excel in this rewarding (and well-compensated!) career.
+    </AccordionPanel>
+    
+  </AccordionItem>
+
+  <AccordionItem>
+    
+      <AccordionButton className='AccordionButton'>
+        <Box as='span' flex='1' textAlign='left'>
+          2. Understanding who your customers are and how they think
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    
+    <AccordionPanel pb={4} className='AccordionButtonPannel'>
+   
+Great PMs know how to get into the heads of their customers, to deeply understand their pain points and needs, and create loved and impactful product experiences. Learn how to create personas, use cases, and customer journeys that can be used to deliver user impact. Get hands-on experience navigating Product–Market Fit and leverage research with pro tools like Sprig and AB Tasty.
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+</div>
+</div>
+
     </>
   )
 }
