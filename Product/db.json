@@ -1,0 +1,109 @@
+{
+    "instructors":[
+        {
+          "block href": "https://productschool.com/product-leaders/akshay-goel",
+          "text-heading_100": "Akshay Goel",
+          "font-sans": "Head of Product",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/4stAWpNWcovbviGeiPxkt0/5d59e4914a95ca3c3dec9282d2493b5f/Meta.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F1rn6mmJlZjWMtRPeD4o9rK%2F5b22fd7fa7ee7be94806e8cd7f7d9a42%2FAkshayGoel_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/eva-feng",
+          "text-heading_100": "Eva Feng",
+          "font-sans": "Head of Product",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/5V82qhcQXEsxzHrOXWz0JA/6dda8c2ea96577c2970502a1f3bb338d/Twilio.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F1F4NClsRvJO1kGevNMBwpu%2F519e97511aeb455087910c69b7d235d0%2FKeelaRobinson_2x__67_.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/jamal-eason",
+          "text-heading_100": "Jamal Eason",
+          "font-sans": "Director of Product Management",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/2IwDl7XXFB1cXtS86Ri7Um/1140f461ecbfca4b4465c788553facc3/Google.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F4Fuhw4L7VCt9MJ7mG88Mlp%2F79f10268877210df729b2ed1036fdbfd%2FKeelaRobinson_2x__41_.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/shaili-guru",
+          "text-heading_100": "Shaili Guru",
+          "font-sans": "Top Instructor & Product Leader",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/lGonike44934/5f5fd8a2cf6293f408a2f65d10f90220/Nike.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2FpRo-a0m1P00000UrMFBQA3%2F021b5ffec92ccec41c69d5d44e5d41d3%2FHS19_DisRotaJan-5-1-Shaili-Guru-scaled.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/justin-belmont",
+          "text-heading_100": "Justin Belmont",
+          "font-sans": "Product Lead",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/EOjIHCvU2cqTiJ3XHGv1R/ab91da952b67836bc9408f559048e5c1/Uber.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F3mpgNwFP9wLtDuPpXDHMPy%2Fde3cbfb8cf8b650fa69375474509798e%2FJustinBelmont.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/buket-baran",
+          "text-heading_100": "Buket Baran",
+          "font-sans": "Sr Product Manager",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/3AaNp9tiLjLJntNcBSsswd/52f73e0ea2d95c3fa3d9786cdc379d21/Spotify.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F7cV4gmKM8qPqRfVcGOsMWh%2Fce30beb17ae468040dd2b90a8b3b5d92%2FBuketBaran_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/alex-shih",
+          "text-heading_100": "Alex Shih",
+          "font-sans": "Principal Product TPM",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/lGo-1g9ho155s0fa89b6fd3961d/5629191af66ecccf6bf72e07b333f3db/Slack-1.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F4iNKBuixBiJThK4Vd6dh7%2Fabb62138caa8361ea88e7c70257b32d0%2FAlexShih_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/ashok-bania",
+          "text-heading_100": "Ashok Bania",
+          "font-sans": "VP of Product",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/1WRP6o7aCWd4Mac0DpzxSl/db05a4241023508e05a7e58b52701523/Soundcloud.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F68rPqp8OagLKYoFxmmv7Pc%2F46b136b8fe8a08388d2545745379819c%2FAshokBania_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/mathieu-verbeeck",
+          "text-heading_100": "Mathieu Verbeeck",
+          "font-sans": "Lead Product Manager",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/2IwDl7XXFB1cXtS86Ri7Um/1140f461ecbfca4b4465c788553facc3/Google.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F2UdZQd99tj2cNz5KrMY7fB%2Fe6a85fb9bb4bbd14373c91b52ba3991e%2FMathieuVerbeeck_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/manini-roy",
+          "text-heading_100": "Manini Roy",
+          "font-sans": "Product Lead",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/2IwDl7XXFB1cXtS86Ri7Um/1140f461ecbfca4b4465c788553facc3/Google.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2FCYZUXPLt7w2nnrGspBj4H%2F1ef20646e4a86acabbe8d8e7e170c36c%2FManiniRoy_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/mayank-yadav",
+          "text-heading_100": "Mayank Yadav",
+          "font-sans": "Product Lead",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/4stAWpNWcovbviGeiPxkt0/5d59e4914a95ca3c3dec9282d2493b5f/Meta.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F62NNUd2eR7001Jrk9Jlc4s%2F2dca49df53659305e620dd8906c20e7c%2FMayank_Yadav_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/vikram-madan",
+          "text-heading_100": "Vikram Madan",
+          "font-sans": "Product Lead",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/EOjIHCvU2cqTiJ3XHGv1R/ab91da952b67836bc9408f559048e5c1/Uber.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F1U6X2SSJlOdSPawShSN0Ax%2F3e0dd243dd4c45d21da12f2ce8f37029%2FVikram_Madan_headshot.jpeg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/tulsee-doshi",
+          "text-heading_100": "Tulsee Doshi",
+          "font-sans": "Head of Product",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/2IwDl7XXFB1cXtS86Ri7Um/1140f461ecbfca4b4465c788553facc3/Google.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F3eevh2voaUDRO7WMKEttAQ%2Fcae83d4ebe92c09c938da294eb50e532%2FTulseeDoshi_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/amber-brown",
+          "text-heading_100": "Amber Brown",
+          "font-sans": "Group Product Manager",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/1RYrs4Q3zaKwKdWlykKe3s/66f888d325e3c1b2df1c53c898cb853e/Twitter.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F2YzsMpnbuHNyKBLcvBGAcy%2F1c4464a9f58e8b396851fa38ca93b328%2FAmberBrown_2x.jpg&w=3840&q=75"
+        },
+        {
+          "block href": "https://productschool.com/product-leaders/lenworth-gordon",
+          "text-heading_100": "Lenworth Gordon",
+          "font-sans": "Principal Tech Product Manager",
+          "object-contain src": "https://images.ctfassets.net/6nwv0fapso8r/5rygV5ri1yTRDM0ZYf9hGQ/aeb00c88c542f3d23bb44ecf1f491ca1/Amazon.svg",
+          "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F7KnL88WoEzJKijcUmB7xXU%2F9ca4735e62096891fd3e2b35a53a8bbd%2FKeelaRobinson_2x__42_.jpg&w=3840&q=75"
+        }
+      ]
+}
