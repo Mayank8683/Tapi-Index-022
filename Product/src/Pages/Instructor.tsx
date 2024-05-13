@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
+import axios from 'axios';
+import Cards from "./Cards.tsx"
 
-import { AspectRatio } from "@chakra-ui/react";
-import { Input, Heading } from "@chakra-ui/react";
+import { AspectRatio, Card } from "@chakra-ui/react";
+import DataComponent from "./components/FetchData.tsx";
+import { Input, Heading,Button } from "@chakra-ui/react";
 import {
   Table,
   Thead,
@@ -18,7 +21,37 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Instructor.css";
 
+// const API = "http://localhost:3001/instructors";
+// const initialState;
+
 const Instructor = () => {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const response = await axios.get('https://instrutor-api.onrender.com/instructor');
+      setData(response.data);
+    console.log(response.data);
+    } catch (error) {
+      setError('Error fetching data. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  
+
+  // useEffect(()=>{
+  //   fetchUsers(API);
+  // })
+
+
   return (
     <>
       <div className="nav-instructor">
@@ -48,7 +81,8 @@ const Instructor = () => {
 
           <Heading>Meet our instructors & speakers</Heading>
           <div className="inner-cards">
-            <div className="card-items">
+            <Cards/>
+            {/* <div className="card-items">
               <img
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww"
                 alt=""
@@ -88,7 +122,7 @@ const Instructor = () => {
               <h4>akshay goel</h4>
               <h5>head of product</h5>
               <img src="logo" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -100,11 +134,11 @@ const Instructor = () => {
               it’s not just about getting that first job. It’s about proving
               yourself in the first 90 days so you get to keep it.
             </p>
-            <button>GET CURRICULUM</button>
+            <Button>GET CURRICULUM </Button>
           </div>
           <div>
             {/* <!-- //carousel changing every 2 sec --> */}
-            <div className="carousel">
+            <div className="carousel ">
               <div id="carouselExampleCaptions" className="carousel slide">
                 <div className="carousel-indicators">
                   <button
@@ -129,7 +163,7 @@ const Instructor = () => {
                   ></button>
                 </div>
                 <div className="carousel-inner">
-                  <div className="carousel-item card-items active">
+                  <div className="carousel-item card-items active w-100">
                     <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block inner-cards-sub-items">
                       <h5>First slide label</h5>
@@ -139,7 +173,7 @@ const Instructor = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="carousel-item card-items">
+                  <div className="carousel-item card-items w-100">
                     <img src="https://plus.unsplash.com/premium_photo-1661766386981-1140b7b37193?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block  inner-cards-sub-items">
                       <h5>Second slide label</h5>
@@ -149,7 +183,7 @@ const Instructor = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="carousel-item card-items">
+                  <div className="carousel-item card-items w-100">
                     <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww" className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block  inner-cards-sub-items">
                       <h5>Third slide label</h5>
@@ -199,6 +233,8 @@ const Instructor = () => {
         </div>
 
         <div className="form">
+
+          
           {/* <!-- use json server --> */}
           {/* <!-- pagination --> */}
           <TableContainer>
@@ -208,33 +244,21 @@ const Instructor = () => {
                 <Tr>
                   <Th>NAME</Th>
                   <Th>HEADLINE</Th>
-                  <Th isNumeric>FEATURED EXPERIENCE</Th>
+                  <Th>FEATURED EXPERIENCE</Th>
                 </Tr>
               </Thead>
               <Tbody>
-                <Tr>
-                  <Td>DATA.NAME</Td>
-                  <Td>DATA.HEADLINE</Td>
-                  <Td isNumeric>DATA.FEATURED</Td>
-                </Tr>
-                <Tr>
-                  <Td>feet</Td>
-                  <Td>centimetres (cm)</Td>
-                  <Td isNumeric>30.48</Td>
-                </Tr>
-                <Tr>
-                  <Td>yards</Td>
-                  <Td>metres (m)</Td>
-                  <Td isNumeric>0.91444</Td>
-                </Tr>
+              {/* http://localhost:3001/instructors */}
+              <DataComponent/>
+      
               </Tbody>
-              <Tfoot>
+              {/* <Tfoot>
                 <Tr>
                   <Th>To convert</Th>
                   <Th>into</Th>
                   <Th isNumeric>multiply by</Th>
                 </Tr>
-              </Tfoot>
+              </Tfoot> */}
             </Table>
           </TableContainer>
         </div>
