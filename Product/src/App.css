@@ -426,23 +426,3 @@
       display: none;
     }
   }
-
-  .enrollBtn:hover{
-    background-color:#07182c;
-    border: 1.5px solid #07182c;
-    color: grey;
-    }
-
-    .AccordionButton{
-      background-color:#0f243e;
-      border: none;
-    
-    }
-    .AccordionButtonPannel{
-      background-color:#0f243e;
-      color: antiquewhite;
-    }
-    .PMCcurriculumLeft{
-      margin: 2rem;
-      position: absolute;
-    }
