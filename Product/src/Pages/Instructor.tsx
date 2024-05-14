@@ -45,6 +45,9 @@ const Instructor = () => {
     }
   };
 
+
+
+
   
 
   // useEffect(()=>{
@@ -229,7 +232,8 @@ const Instructor = () => {
           {/* <!-- search functionality --> */}
           <Heading>Find your Product Management Mentor</Heading>
           {/* <input type="text" placeholder="Search by name or company"/> */}
-          <Input placeholder="Search by name or company" minW="3px" />
+          {/* <SearchComponent  data={data}/> */}
+          <Input  placeholder="Search by name or company" minW="3px" />
         </div>
 
         <div className="form">
@@ -250,6 +254,7 @@ const Instructor = () => {
               <Tbody>
               {/* http://localhost:3001/instructors */}
               <DataComponent/>
+
       
               </Tbody>
               {/* <Tfoot>

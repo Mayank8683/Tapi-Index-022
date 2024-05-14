@@ -3,8 +3,9 @@
 // import DataComponent from "./Pages/components/FetchData"
 
 
-// import Footer2 from "./Pages/Footer2.tsx";
+import Footer2 from "./Pages/Footer2.tsx";
 import Instructor from "./Pages/Instructor.tsx";
+import Navbar from "./Pages/components/Navbar.tsx";
 
 
 
@@ -13,9 +14,9 @@ function App() {
 
   return (
     <>
-    {/* <Footer2/> */}
+   <Navbar/>
     <Instructor/>
-    {/* <DataComponent/> */}
+     <Footer2/>
     </>
   )
 }
