@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "instructors":[
         {
@@ -106,4 +107,260 @@
           "inline-block src": "https://productschool.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F6nwv0fapso8r%2F7KnL88WoEzJKijcUmB7xXU%2F9ca4735e62096891fd3e2b35a53a8bbd%2FKeelaRobinson_2x__42_.jpg&w=3840&q=75"
         }
       ]
+=======
+{"users":[
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png",
+      "link": "https://www.coursera.org/professional-certificates/google-project-management",
+      "title": "Google Project Management:",
+      "description": "Project Management, Strategy and Operations, Leadership and Management, Communication, Business Communication, Collaboration, Agile Software Development, Software Engineering, Entrepreneurship, Scrum (Software Development), Planning, Supply Chain and Logistics, Change Management, Finance, Organizational Development, Product Management, Risk Management, Budget Management, Influencing, Culture, Emotional Intelligence, People Management, Problem Solving, Procurement",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "Make progress toward a degree",
+      "Rating": 4.8
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png",
+      "link": "https://www.coursera.org/learn/project-management-foundations",
+      "title": "Foundations of Project Management",
+      "description": "Project Management, Strategy and Operations, Business Communication, Change Management, Organizational Development, Communication, Culture, Emotional Intelligence, Influencing, Leadership and Management, People Management, Planning",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.9
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/4a/cb36835ae3421187080898a7ecc11d/Google-G_360x360.png",
+      "link": "https://www.coursera.org/learn/agile-project-management",
+      "title": "Agile Project Management",
+      "description": "Agile Software Development, Software Engineering, Project Management, Scrum (Software Development), Strategy and Operations, Collaboration, Leadership and Management, Communication, Entrepreneurship, Product Management, Influencing, Problem Solving",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.8
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png",
+      "link": "https://www.coursera.org/projects/create-project-management-tracker-microsoft-excel",
+      "title": "Create a Project Management Tracker using Microsoft Excel",
+      "description": "Leadership and Management, Microsoft Excel, Project Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.6
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/a6/7035b7e00b401383be4e5856b8bdaa/Boulder-FL-VERT-B---cropped.png",
+      "link": "https://www.coursera.org/specializations/meem-project-management",
+      "title": "Project Management",
+      "description": "Leadership and Management, Project Management, Planning, Strategy and Operations, Product Management, Agile Software Development, People Management, Strategy, Scrum (Software Development), Performance Management, Risk Management, Business Process Management, Business Communication, Decision Making, Adaptability, Product Development, Data Analysis, Estimation, Budget Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "Make progress toward a degree",
+      "Rating": 4.7
+    },
+    {
+      "Image": "https://coursera-university-assets.s3.amazonaws.com/f2/9b83af4f4a200e807feeb2969f02c9/uva_logo.png",
+      "link": "https://www.coursera.org/learn/uva-darden-project-management",
+      "title": "Fundamentals of Project Planning and Management",
+      "description": "Project Management, Strategy and Operations, Leadership and Management, Planning",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png",
+      "link": "https://www.coursera.org/projects/business-analysis-process-management",
+      "title": "Business Analysis & Process Management",
+      "description": "Business Analysis, Leadership and Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.4
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/3a/043acda9fb458194d1cbcd38ca6d5c/Rice_Logo_280_Blue_Square.png",
+      "link": "https://www.coursera.org/specializations/engineering-project-management",
+      "title": "Engineering Project Management",
+      "description": "Leadership and Management, Project Management, Strategy and Operations, Planning, Operations Management, Strategy, Critical Thinking, Decision Making, Performance Management, Risk Management, Organizational Development, Leadership Development, People Management, Change Management, Conflict Management, Estimation",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png",
+      "link": "https://www.coursera.org/projects/introduction-project-management",
+      "title": "Introduction to Project Management",
+      "description": "Leadership and Management, Planning, Project Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.6
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png",
+      "link": "https://www.coursera.org/learn/introduction-to-project-management",
+      "title": "Introduction to Project Management",
+      "description": "Leadership and Management, Project Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.8
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/57/2f1c35bd4a4a6d94bde7d622267b9c/Partner-landing-page-Logo-2.png",
+      "link": "https://www.coursera.org/professional-certificates/ibm-project-manager",
+      "title": "IBM Project Manager",
+      "description": "Software Engineering, Agile Software Development, Scrum (Software Development), Business Analysis, Communication, Leadership and Management, Project Management, Risk Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.8
+    },
+    {
+      "Image": "https://coursera-university-assets.s3.amazonaws.com/39/31c7a00bb411e4b2adb7c560fb2da9/UCI_MB_PI_WM_300x300_YellowonBlue.png",
+      "link": "https://www.coursera.org/specializations/project-management",
+      "title": "Project Management Principles and Practices",
+      "description": "Project Management, Strategy and Operations, Leadership and Management, Collaboration, Communication, Conflict Management, Risk Management, Estimation, Planning",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/e2/5ecea5b43447f28f2b914d2d4d3513/Square-Logo-for-Partner-Landing-Page.png",
+      "link": "https://www.coursera.org/learn/cloud-security-on-aws",
+      "title": "Cloud Security on AWS",
+      "description": "",
+      "css-14m26ju": "",
+      "css-ls7ln4": "",
+      "Rating": 5
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/16/53ae6fd8994a62b539628abeaf483f/GENE_LOCKUP_Primary_FullColor_RGB_square_resize.png",
+      "link": "https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting",
+      "title": "Making Data Science Work for Clinical Reporting",
+      "description": "Leadership and Management, Agile Software Development, R Programming",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/58/a71c3f9f7342cd862014a6b2d50899/IBM-Logo-Blk---Square.png",
+      "link": "https://www.coursera.org/learn/ibm-data-privacy",
+      "title": "IBM Data Privacy for Information Architecture",
+      "description": "",
+      "css-14m26ju": "",
+      "css-ls7ln4": "",
+      "Rating": 4.6
+    },
+    {
+      "Image": "https://coursera-university-assets.s3.amazonaws.com/75/a144950f75d01464eef8e64003285c/FB-GoldM-maroon.png",
+      "link": "https://www.coursera.org/learn/enterprise-systems",
+      "title": "Enterprise Systems",
+      "description": "Business Process Management, Leadership and Management, Software As A Service, Strategy and Operations, Business Transformation, Operations Management, Planning, Supply Chain and Logistics, Data Analysis, Strategy",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.8
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/fa/0b3fb0640711e8b77e73d0990f7c82/180.png",
+      "link": "https://www.coursera.org/specializations/mercado-de-capitais",
+      "title": "Mercado de Capitais",
+      "description": "Leadership and Management, Business Analysis, Strategy, Data Management, Databases, Data Analysis, Data Analysis Software, Strategy and Operations, Financial Analysis, Problem Solving",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.9
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/5c/6a4547134c4268aa28c539f15c7ff7/EPFL-Logo-300-300.png",
+      "link": "https://www.coursera.org/learn/gis-1",
+      "title": "Geographical Information Systems - Part 1",
+      "description": "SQL",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 3.5
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/bc/b58dfe61164dfbbea884fddab39456/5.png",
+      "link": "https://www.coursera.org/learn/foundations-of-hotel-budgeting-and-forecasting",
+      "title": "Foundations of Hotel Budgeting and Forecasting",
+      "description": "",
+      "css-14m26ju": "",
+      "css-ls7ln4": "",
+      "Rating": 4
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/a6/7035b7e00b401383be4e5856b8bdaa/Boulder-FL-VERT-B---cropped.png",
+      "link": "https://www.coursera.org/learn/capstone-fpga-design",
+      "title": "FPGA Capstone:  Building FPGA Projects",
+      "description": "Leadership and Management",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "Make progress toward a degree",
+      "Rating": 4.4
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/f8/41e185fa7348989efb99c83d78dce1/Coursera_EIT-Digital.new.logo.new.EU.flag.portrait.blue.png",
+      "link": "https://www.coursera.org/learn/business-implications-ai-nano-course",
+      "title": "Business Implications of AI: A Nano-course",
+      "description": "Business Development, Strategy, Strategy and Operations, Leadership and Management, Data Analysis, Machine Learning, Business Transformation, Critical Thinking, Entrepreneurship, Software As A Service",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.5
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/b1/63ba700cbf11e88d11058d160c766e/square-logo_180x180.png",
+      "link": "https://www.coursera.org/learn/decision-making-how-to-choose-the-right-problem-to-solve",
+      "title": "Decision Making - How to Choose the Right Problem to Solve",
+      "description": "Communication, Problem Solving, Professional Development",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/43/8525a6ce56454891bc8193271af816/carre.png",
+      "link": "https://www.coursera.org/learn/tech-startup",
+      "title": "Creating and Developing a Tech Startup",
+      "description": "Entrepreneurship, Innovation, Leadership and Management, Strategy, Strategy and Operations, Planning",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.2
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/9f/d47360d26111e6b3b6a985990fdddd/IMT_logo_page-partenaire-coursera.png",
+      "link": "https://www.coursera.org/learn/blockchain-enjeux-et-mecanismes-cryptographiques-bitcoin",
+      "title": "Blockchain : enjeux et mécanismes cryptographiques",
+      "description": "Leadership and Management, Business Analysis, Decision Making, Business Development, Business Psychology, Data Analysis, Design and Product, Planning, Strategy, Strategy and Operations, BlockChain",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 3
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/e3/1a43c174de4cd1b136a54aa9c41a54/280759_Coursera_Profile_Image_360x360.png",
+      "link": "https://www.coursera.org/learn/design-patterns",
+      "title": "Design Patterns",
+      "description": "Computer Programming, Java Programming, Programming Principles, Software Architecture, Software Engineering, Systems Design, Computational Thinking, Problem Solving, System Software, Product Design",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/b1/c2372bb1724ddc9e3bab9d658c8a10/Logo_Campus_Negativo.png",
+      "link": "https://www.coursera.org/learn/cybersecurity-for-managers",
+      "title": "Cybersecurity for Managers",
+      "description": "System Security, Computer Security Incident Management, Computer Security Models, Cyberattacks, Software Security, Mobile Security, Network Security, System Software, Organizational Development, Security Engineering, Advertising",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.7
+    },
+    {
+      "Image": "http://coursera-university-assets.s3.amazonaws.com/4e/c2f4c0f4bb11e69a33576c875f4294/cloud-twitter-avatar.png",
+      "link": "https://www.coursera.org/learn/gmail",
+      "title": "Gmail",
+      "description": "Communication, User Experience, Google Cloud Platform, Leadership and Management, Business Communication, Business Process Management, Collaboration, Organizational Development, Problem Solving, Professional Development, Cloud Computing, Cloud Platforms",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.8
+    },
+    {
+      "Image": "https://coursera-university-assets.s3.amazonaws.com/a6/1e4ab0006811e588a83f1402502e3b/N_EssecBusinessSchool_HDcoursera.png",
+      "link": "https://www.coursera.org/learn/innovation-publique-pensee-design",
+      "title": "Innovation publique et pensée design, l'innovation sociale au service des territoires",
+      "description": "Business Analysis, Business Development, Business Psychology, Communication, Decision Making, Design and Product, Entrepreneurship, Leadership and Management, Strategy, Strategy and Operations, Innovation",
+      "css-14m26ju": "Skills you'll gain:",
+      "css-ls7ln4": "",
+      "Rating": 4.6
+    }
+  ] 
+>>>>>>> 005c63e706dcdd34e24fa60298c0d84df8fa1601
 }

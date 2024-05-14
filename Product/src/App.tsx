@@ -5,20 +5,47 @@
 
 import Footer2 from "./Pages/Footer2.tsx";
 import Instructor from "./Pages/Instructor.tsx";
-import Navbar from "./Pages/components/Navbar.tsx";
+// import Navbar from "./Pages/components/Navbar.tsx";
 
 
 
-function App() {
+// function App() {
   
+// import "./App.css";
+// import { RoutingCertificate } from "./routesCertificate/routingCertificate";
 
+// const App = () => {
+//   return (
+//     <div>
+//       <RoutingCertificate />
+//     </div>
+//   );
+// };
+
+// export default App;
+// App.jsx
+import "./App.css";
+import { EnrollmentProvider } from "./context/EnrollmentProvider";
+import { RoutingCertificate } from "./routesCertificate/routingCertificate";
+
+
+const App = () => {
   return (
     <>
-   <Navbar/>
+   {/* <Navbar/> */}
     <Instructor/>
      <Footer2/>
-    </>
-  )
-}
+   
+  
 
-export default App
+    <EnrollmentProvider>
+      <div>
+        <RoutingCertificate/>
+      </div>
+    </EnrollmentProvider>
+    </>
+  );
+};
+
+export default App;
+
