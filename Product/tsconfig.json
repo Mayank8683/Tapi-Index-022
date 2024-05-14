@@ -5,6 +5,12 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fortawesome/free-brands-svg-icons": ["node_modules/@fortawesome/fontawesome-free"],
+      "@fortawesome/free-solid-svg-icons": ["node_modules/@fortawesome/fontawesome-free"],
+      "@fortawesome/react-fontawesome": ["node_modules/@fortawesome/react-fontawesome"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
