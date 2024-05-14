@@ -11,11 +11,11 @@ import {
     IconButton,
     useColorModeValue,
   } from '@chakra-ui/react';
-  import { ReactNode } from 'react';
+  // import { ReactNode } from 'react';
   import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
   import { BiMailSend } from 'react-icons/bi';
   
-  const Logo = (props) => {
+  const Logo = (props:any) => {
     return (
       <svg
         height={32}
@@ -38,7 +38,10 @@ import {
     children,
     label,
     href,
-  }) => {
+  }:any
+
+) => {
+
     return (
       <chakra.button
         bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
@@ -62,7 +65,7 @@ import {
     );
   };
 
-  const ListHeader = ({ children }) => {
+  const ListHeader = ({ children }: any) => {
     return (
       <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
         {children}
@@ -72,10 +75,10 @@ import {
   
   export default function LargeWithNewsletter() {
     return (
-      <Box
+      <Box  
         bg={useColorModeValue('#103869', '#103869')}
         color={useColorModeValue('white', 'gray.200')}>
-        <Container as={Stack} maxW={'6xl'} py={10}>
+        <Container as={Stack} maxW={'8xl'} py={10}>
           <SimpleGrid
             templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
             spacing={8}>

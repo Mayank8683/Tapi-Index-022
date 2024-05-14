@@ -10,7 +10,7 @@ export const RoutingCertificate = () => {
     <div>
      
         <Routes>
-        <Route path="/" element={<CertificationPage />} />
+        <Route path="/Certification" element={<CertificationPage />} />
         <Route path="/CourseList" element={<CourseList courses={courses}/>} />
         <Route path ='/enroll/:courseId' element={<EnrollNowForm/>}/>
        </Routes>

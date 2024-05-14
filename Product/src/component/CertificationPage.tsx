@@ -8,6 +8,7 @@ import { MetaDiv } from "./MetaDiv";
 import { PMCcurri } from "./PMCcurri";
 import { TuitionPage } from "./TuitionPage";
 import { PmcPlc } from "./PmcPlc";
+import Navbar from "../Components/Navbar";
 
 
 
@@ -130,6 +131,9 @@ export const CertificationPage = () => {
     localStorage.setItem("submitted", "true");
   };
   return (
+    <>
+    {/* <Navbar/> */}
+    <div>
     <div className="CertificationsPage">
       <div
         className="CertificationPage"
@@ -162,6 +166,7 @@ export const CertificationPage = () => {
               need to get hired and succeed.
             </p>
           </div>
+      
 
           {/*SEE COURSE CONTENT Button & it's functionality*/}
 
@@ -391,7 +396,7 @@ export const CertificationPage = () => {
           </div>
         </div>
       </div>
-
+      </div>
       
       <VideoComp />
       <EnrollNow />
@@ -402,5 +407,7 @@ export const CertificationPage = () => {
       
       
     </div>
+    
+    </>
   );
 };

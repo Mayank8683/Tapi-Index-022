@@ -1,6 +1,6 @@
 import React, { useState } from "react";
  import { BrowserRouter as Router,Routes,Route, Link } from "react-router-dom";
-import Navbar from "./Components/navbar.jsx";
+import Navbar from "./Components/Navbar.js";
 import Home from "./Components/hero.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardComponent from "./Components/box.jsx";

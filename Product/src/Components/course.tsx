@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Image, Badge, Text, Button, Grid, HStack, useColorModeValue } from '@chakra-ui/react';
-import CartPage from '../cartPage';
+// import CartPage from '../cartPa';
+
 
 const CourseCard = ({}) => {
   const [courses, setCourses] = useState([]);
@@ -16,8 +17,8 @@ const CourseCard = ({}) => {
       .catch((error) => console.error('Error fetching courses:', error));
   }, []);
 
-  const handleAddToCart = (course) => {
-    setCart((prevCart) => [...prevCart, course]);
+  const handleAddToCart = (course : any) => {
+    setCart((prevCart): any => [...prevCart, course]);
   };
 
   const totalPages = Math.ceil(courses.length / itemsPerPage);
@@ -25,7 +26,7 @@ const CourseCard = ({}) => {
   const endIndex = startIndex + itemsPerPage;
   const currentCourses = courses.slice(startIndex, endIndex);
 
-  const handlePageChange = (pageNumber) => {
+  const handlePageChange = (pageNumber: any) => {
     setCurrentPage(pageNumber);
   }
 
@@ -51,7 +52,7 @@ const CourseCard = ({}) => {
     <>
     <Box>
       <Grid templateColumns="repeat(4, 1fr)" gap={6}>
-        {currentCourses.map((course) => (
+        {currentCourses.map((course: any) => (
         //    <CartPage cart={cart} />
           <Box
            
@@ -63,10 +64,10 @@ const CourseCard = ({}) => {
             shadow="lg"
             position="relative"
           >
-            <Image src={course.image} alt={`${course.Title} Thumbnail`} roundedTop="lg" />
+            <Image src={course.image } alt={`${course.Title} Thumbnail`} roundedTop="lg" />
 
             <Box p="6">
-              <Box d="flex" alignItems="baseline">
+              <Box display="flex" alignItems="baseline">
                 <Badge rounded="full" px="2" colorScheme="teal">
                   New
                 </Badge>

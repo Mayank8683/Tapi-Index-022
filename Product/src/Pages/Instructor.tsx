@@ -20,6 +20,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Instructor.css";
+import Navbar from "../Components/Navbar.tsx";
 
 // const API = "http://localhost:3001/instructors";
 // const initialState;
@@ -57,6 +58,7 @@ const Instructor = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="nav-instructor">
         <div className="first-instructor">
           <div>

@@ -14,7 +14,7 @@ import {
     PopoverTrigger,
     PopoverContent,
     useColorModeValue,
-    useBreakpointValue,
+    // useBreakpointValue,
     useDisclosure,
 
   } from '@chakra-ui/react';
@@ -29,7 +29,7 @@ import {
     const { isOpen, onToggle } = useDisclosure();
   
     return (
-      <Box position="sticky" top="0" zIndex="sticky">
+      <Box position="sticky" top="0" zIndex="sticky" >
         <Flex
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
@@ -113,7 +113,7 @@ import {
               <PopoverTrigger>
                 <Link
                   p={2}
-                  href={navItem.href ?? '#'}
+                  href={navItem.href ?? ''}
                   fontSize={'sm'}
                   fontWeight={500}
                   color={linkColor}
@@ -147,7 +147,7 @@ import {
     );
   };
   
-  const DesktopSubNav = ({ label, href, subLabel }) => {
+  const DesktopSubNav = ({ label, href, subLabel }:any) => {
     return (
       <Link
         href={href}
@@ -194,7 +194,7 @@ import {
     );
   };
   
-  const MobileNavItem = ({ label, children, href }) => {
+  const MobileNavItem = ({ label, children, href }:any) => {
     const { isOpen, onToggle } = useDisclosure();
   
     return (
@@ -233,7 +233,7 @@ import {
             borderColor={useColorModeValue('gray.200', 'gray.700')}
             align={'start'}>
             {children &&
-              children.map((child) => (
+              children.map((child : any) => (
                 <Link key={child.label} py={2} href={child.href}>
                   {child.label}
                 </Link>
@@ -253,7 +253,7 @@ import {
         {
           label: 'Product Manager Certification',
           subLabel: 'Get your first Product Management job',
-          href: '#',
+          href: '/Certification',
         },
         {
             label: 'Product Leader Certification',
@@ -283,7 +283,7 @@ import {
     },
     {
       label: 'Our Instructors',
-      href: '#',
+      href: '/instructor',
     },
     {
       label: 'Resources',
